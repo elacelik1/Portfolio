@@ -1,0 +1,248 @@
+
+body {
+    margin: 0;
+    background-color: #333333 !important;
+  
+}
+
+/* Navigation und Header*/
+header {
+    background-color: #F7EBEC;
+    height: 60px;
+}
+
+.nav ul {
+    background-color: #F7EBEC !important;
+    text-align: center !important;
+    padding: 0 !important;
+    margin: auto !important;
+    text-decoration: none !important;
+    
+}
+
+.nav li {
+    font-family:'Politica', bold !important;
+    font-size: 40px !important;
+    display: inline !important;
+}
+
+.nav a {
+    color: #333333 !important;
+    text-decoration: none !important;
+    display: inline !important;
+    padding: 50px !important;
+}
+
+/* Navigation ende*/
+
+/* Landing Page oder Home*/
+#home {
+    font-family: 'politica', bold;
+    background-image: url(/img/primetower1.png);
+    background-color: #333333;
+    display: block;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 900px;
+    justify-content: center;
+}
+
+#home h1 {
+            margin: 0;
+    width: 703px;
+    height: 195px;
+    font-family: 'Politica', bold;
+    font-size: 80px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #f7ebec;
+    margin-left: 97px;
+    margin-top: 571px;
+    display: inline-flex;
+}
+/* Landing Page ende*/
+
+/* About me*/
+#about h1 {
+        margin: 0;
+        margin-right: 200px;
+        float: right;
+    width: 392px;
+    height: 130px;
+    font-family: 'Politica', bold;
+    font-size: 100px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #f7ebec;
+}
+
+.ela {
+    width: 420px;
+    height: 630px;
+}
+
+.textela {
+        margin-top: 200px;
+    width: 512px;
+    height: 441px;
+    font-family: 'Politica', bold;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #f7ebec;
+
+}
+
+.bildtext {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 186px 0 141px;
+}
+/* About me ende*/
+
+/* Photography*/
+
+#photography h1 {
+        margin: 0;
+        margin-left: 200px;
+    width: 530px;
+    height: 130px;
+    font-family:'Politica', bold;
+    font-size: 100px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #f7ebec;
+}
+
+.gallerie {
+    margin: 20px 100px 0 150px;
+}
+/*Photography ende*/
+
+/* Animation*/
+#animation h1{
+        margin: 0;
+        float: right;
+        margin-right: 200px;
+    width: 420px;
+    height: 130px;
+    font-family: 'Politica', bold;
+    font-size: 100px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #f7ebec;
+}
+
+
+.video1 {
+    width: 720px;
+    margin-left: 100px;
+    display: inline-block;
+}
+.video2 {
+    width: 720px;
+    float: right;
+    margin-right: 100px;
+    display: inline-block; 
+}
+.video{
+    display: inline;
+    justify-content: space-between;
+}
+/* Animation ende*/
+
+/* Random sachen die durch das ganze Dokument hin gleich bleiben*/
+.pfeil {
+    text-align: center;
+    width: 101px;
+    height: 24px;
+    object-fit: contain;
+    margin-left: auto; 
+    margin-right: auto;
+    display: block;
+    margin-top: 60px;
+}
+
+.clear {
+    clear: both;
+}
+
+/* Random ende*/
+
+/*Contact*/
+#contact h1{
+    margin: 0;
+    margin-left: 200px;
+    width: 318px;
+    height: 130px;
+    font-family: 'Politica', bold;
+    font-size: 100px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #f7ebec;
+}
+
+/*Kontaktformular*/
+.form-control {
+    font-family: 'politica';
+    background-color:#f7ebec;
+    margin: 30px;
+}
+#contact p {
+    font-family: 'Politica', bold;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #f7ebec;
+}
+#contact a {
+    font-family: 'Politica', bold;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #f7ebec;
+}
+/*Contact ende*/
+
+/*Footer*/
+footer {
+   background-color: #F7EBEC;
+   height: 60px;
+}
+.footerinhalt {
+    font-family: 'politica', bold;
+    justify-content: center;
+    display:flex;
+    margin: 0;
+    font-size: 20px;
+}
