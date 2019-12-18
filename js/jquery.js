@@ -14,3 +14,11 @@ function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+
+
+  $('#senden').on('click', function (event) {
+    var email = 'celike@bzz.ch';
+    var subject = $('#name').val();
+    var emailBody = 'Some blah';
+    window.location = 'mailto:' + email + '?subject=' + subject + '&body=' +   emailBody;
+  });

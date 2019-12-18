@@ -303,13 +303,14 @@ Im August 2017 habe ich meine Lehre als Mediamatikerin begonnen. Dort habe ich d
         <h1>Contact</h1>
         <div class="clear"></div>
         <div class="kontaktformular">
-            <form action="https://outlook.com/celike@bzz.ch" class="form-horizontal" role="form" method="post">
-                <input type="text" class="form-control" name="name" placeholder="Name" required>
-                <input type="email" class="form-control" name="_replyto" placeholder="E-Mail" required>
-                <input type="text" class="form-control" name="_subject" placeholder="Betreff" required>
-                <textarea class="form-control" rows="5" name="message" placeholder="Mitteilung" required></textarea>
-                <button class="absenden" vlaue="Submit Comment" type="submit">Senden</button>
-            </form>
+            <!--form action= "mailto:celike@bzz.ch" class="form-horizontal" role="form" method="post"-->
+                <input type="text" id="name" class="form-control" name="name" placeholder="Name" required>
+                <input type="email" id="email" class="form-control" name="_replyto" placeholder="E-Mail" required>
+                <input type="text" id="betreff" class="form-control" name="_subject" placeholder="Betreff" required>
+                <textarea id="message" class="form-control" rows="5" name="message" placeholder="Mitteilung" required></textarea>
+                <button id="senden" class="absenden" vlaue="Submit Comment" type="submit">Senden</button>
+                <!--a href="#" id="emailLink" id="emailLink">Email</a>
+            </form-->
         </div>
     </section>
         <button onclick="topFunction()" id="button" title="Go to top">Top</button>
