@@ -20,7 +20,7 @@ function topFunction() {
   $('#senden').on('click', function (event) {
     var email = 'celike@bzz.ch';
     var subject = $('#betreff').val();
-    var emailBody = 'eifach öpis';
+    var emailBody = $('#message').val();
     window.location = 'mailto:' + email + '?subject=' + subject + '&body=' +   emailBody;
   });
 
