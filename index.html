@@ -14,7 +14,56 @@
     CSS Verlinkung
     ******************************************-->
     <link rel="stylesheet" type="text/css" href="./css/style.css">
-
+     <style>
+        *
+            .text-animation{
+                list-style: none;
+                position: relative;
+                margin-top: 600px;
+                transform: translateX(-50%),translateY(-50%);
+            }
+            .text-animation li{
+                display: inline-block;
+                margin-right: 4px;
+                color: #f7ebec;
+                opacity: 1;
+                transition: all 2.5s;
+            }
+            .text-animation li{
+                display: inline-block;
+                margin-right: 5px;
+                transition: all 3.5s ease;
+                opacity: 1;
+}
+            .text-animation li:last-child {
+                margin-right: 0;
+}
+           .text-animation.hidden {
+               margin-top: 200px;
+               opacity: 1;  
+           }
+           .text-animation.hidden li:nth-child(1){ transform: translateX(-200px)translateY(-200px);}
+           .text-animation.hidden li:nth-child(2){ transform: translateX(20px)translateY(100px);}
+           .text-animation.hidden li:nth-child(3){ transform: translateX(-150px)translateY(-80px);}
+           .text-animation.hidden li:nth-child(4){ transform: translateX(10px)translateY(-200px);}
+           .text-animation.hidden li:nth-child(5){ transform: translateX(-300px)translateY(200px);}
+           .text-animation.hidden li:nth-child(6){ transform: translateX(20px)translateY(-20px);}
+           .text-animation.hidden li:nth-child(7){ transform: translateX(30px)translateY(200px);}
+           .text-animation.hidden li:nth-child(8){ transform: translateX(-200px)translateY(-200px);}
+           .text-animation.hidden li:nth-child(9){ transform: translateX(20px)translateY(100px);}
+           .text-animation.hidden li:nth-child(10){ transform: translateX(-150px)translateY(-80px);}
+           .text-animation.hidden li:nth-child(11){ transform: translateX(-200px)translateY(-200px);}
+           .text-animation.hidden li:nth-child(12){ transform: translateX(20px)translateY(100px);}
+           .text-animation.hidden li:nth-child(13){ transform: translateX(-150px)translateY(-80px);}
+           .text-animation.hidden li:nth-child(14){ transform: translateX(10px)translateY(-200px);}
+           .text-animation.hidden li:nth-child(15){ transform: translateX(-300px)translateY(200px);}
+           .text-animation.hidden li:nth-child(16){ transform: translateX(20px)translateY(-20px);}
+           .text-animation.hidden li:nth-child(17){ transform: translateX(30px)translateY(200px);}
+           .text-animation.hidden li:nth-child(18){ transform: translateX(-200px)translateY(-200px);}
+           .text-animation.hidden li:nth-child(19){ transform: translateX(20px)translateY(100px);}
+           .text-animation.hidden li:nth-child(20){ transform: translateX(-150px)translateY(-80px);}
+} 
+        </style>
 </head>
 <body>
 
@@ -36,10 +85,40 @@
     Starter Section
     ******************************************-->
     <section id="home">
-        <h1>Multimedia Portfolio by Ela Çelik</h1>
+    <body>
+        <ul class="text-animation hidden">
+        <li>M</li>
+        <li>u</li>
+        <li>l</li>
+        <li>t</li>
+        <li>i</li>
+        <li>m</li>
+        <li>e</li>
+        <li>d</li>
+        <li>i</li>
+        <li>a</li>
+        <li> </li>
+        <li>P</li>
+        <li>o</li>
+        <li>r</li>
+        <li>t</li>
+        <li>f</li>
+        <li>o</li>
+        <li>l</li>
+        <li>i</li>
+        <li>o</li>
+            </ul>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+             
+    <script type="text/javascript">
+        $(function() {
+            setTimeout(function() {
+                       $('.text-animation').removeClass('hidden');
+                       }, 500);
+        })(); </script>
         <a class=scroll href="index.html#about"><img src="img/pfeil.png" class="pfeil"></a>
-    </section>
-
+ </section>
+        
     <section id="about">
         <h1>About</h1>
         <div class="clear"></div>
@@ -299,7 +378,7 @@ Im August 2017 habe ich meine Lehre als Mediamatikerin begonnen. Dort habe ich d
     <!--*****************************************
     Contact Form
     ******************************************-->
-    <section id="contact">
+   <section id="contact">
         <h1>Contact</h1>
         <div class="clear"></div>
         <div class="kontaktformular">
@@ -313,8 +392,11 @@ Im August 2017 habe ich meine Lehre als Mediamatikerin begonnen. Dort habe ich d
             </form-->
         </div>
     </section>
+    
+    <!-- top button-->
         <button onclick="topFunction()" id="button" title="Go to top">Top</button>
         <div class="clear"></div>
+    
     <!--*****************************************
     Footer
     ******************************************-->
@@ -325,8 +407,9 @@ Im August 2017 habe ich meine Lehre als Mediamatikerin begonnen. Dort habe ich d
     </footer>
 
     <!--*****************************************
-    Bootstrap Links
+    Bootstrap Links, Jqurey
     ******************************************-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>

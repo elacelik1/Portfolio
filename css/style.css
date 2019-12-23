@@ -6,10 +6,9 @@ html {
 }
 body {
     margin: 0;
-    background-color: #333333 !important;
+    background-color: #333333;
     font-family: 'Politica', serif;
 }
-
 /*****************************************
 Navigation und Header
 *****************************************/
@@ -42,7 +41,6 @@ Landing Page oder Home
 *****************************************/
 #home {
     background-image: url(/img/primetower1.png) !important;
-    background-color: #333333;
     display: block;
     background-position: center;
     background-size: cover;
@@ -50,8 +48,8 @@ Landing Page oder Home
     height: 900px;
     justify-content: center;
 }
-#home h1 {
-            margin: 0;
+.text-animation {
+    margin: 0;
     width: 703px;
     height: 195px;
     font-size: 80px;
@@ -61,10 +59,19 @@ Landing Page oder Home
     line-height: normal;
     letter-spacing: normal;
     text-align: center;
-    color: #f7ebec;
-    margin-left: 97px;
-    margin-top: 571px;
+    color: #000000;
     display: inline-flex;
+    list-style: none;
+    transform: translateX(-50%),translateY(-50%);
+    position: absolute;
+}
+
+.animation{
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 300px;
+    text-align: center !important;
+    position: absolute;
 }
 /* Landing Page ende*/
 
@@ -303,6 +310,11 @@ Contact
 /*****************************************
 Kontaktformular
 *****************************************/
+
+.kontaktformular{
+    margin-left: 200px;
+    margin-right: 200px;
+}
 form {
     width: 500px;
     padding: 30px;
@@ -337,8 +349,14 @@ form {
 form button {
     width: 100%;
     background-color: #f7ebec;
-    border: solid 1px #c0b7b8;
     padding: 10px;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #f7ebec;
 }
 
 /*Contact ende*/
@@ -356,4 +374,6 @@ footer {
     margin-top: 0px;
     font-size: 20px;
 }
+
+
 

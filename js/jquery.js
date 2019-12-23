@@ -15,10 +15,12 @@ function topFunction() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
+//nachricht versenden
 
   $('#senden').on('click', function (event) {
     var email = 'celike@bzz.ch';
-    var subject = $('#name').val();
-    var emailBody = 'Some blah';
+    var subject = $('#betreff').val();
+    var emailBody = 'eifach öpis';
     window.location = 'mailto:' + email + '?subject=' + subject + '&body=' +   emailBody;
   });
+
